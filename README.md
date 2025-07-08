@@ -1,3 +1,6 @@
+![image](https://github.com/user-attachments/assets/a97018d5-0b7e-4187-8d67-f7d9ee221024)
+
+
 # Advance Wars Online 3S
 
 A Unity-based recreation of the classic Advance Wars strategy game, featuring turn-based tactical combat, multiple unit types, and a complete battle system.
@@ -182,7 +185,7 @@ This project is a fan recreation of Advance Wars for educational purposes. All o
 
 - **Nintendo/Intelligent Systems** for the original Advance Wars series
 - **Unity Technologies** for the game engine
-- **Community Contributors** for feedback and testing
+- **Nova-Odos** for the video game models
 
 ---
 
@@ -190,7 +193,7 @@ This project is a fan recreation of Advance Wars for educational purposes. All o
 
 The core gameplay loop is complete and functional:
 - ✅ Unit selection and movement
-- ✅ Combat system with damage calculations  
+- ✅ Combat system with damage calculations
 - ✅ Turn-based mechanics
 - ✅ Terrain interactions
 - ✅ Basic AI opponent units
