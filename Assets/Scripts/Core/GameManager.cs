@@ -13,6 +13,7 @@ public class GameManager : MonoBehaviour
     public UIManager uiManager;
     public TerrainManager terrainManager;
     public InputManager inputManager;
+    public AIController aiController;
     
     [Header("Game State")]
     public int currentPlayer = 0;
