@@ -1,9 +1,9 @@
 ![image](https://github.com/user-attachments/assets/a97018d5-0b7e-4187-8d67-f7d9ee221024)
 
 
-# Advance Wars Online 3S
+# Advance Wars Online Third Strike v0.0.1
 
-A Unity-based recreation of the classic Advance Wars strategy game, featuring turn-based tactical combat, multiple unit types, and a complete battle system.
+A Unity-based recreation of the classic Advance Wars strategy game, featuring turn-based tactical combat, multiple unit types, and a complete battle system. Designed for WebGL and online play.
 
 ## 🎮 Features
 
