@@ -19,6 +19,14 @@ A Unity-based recreation of the classic Advance Wars strategy game, featuring tu
 - **Ammo System**: Units have limited ammunition for attacks
 - **Random Variance**: ±10% damage variation for realistic combat
 
+### 🤖 AI System
+- **Strategic AI**: Computer opponents that make tactical decisions
+- **Multiple Difficulty Levels**: Easy, Normal, Hard, and Expert modes
+- **Configurable Behavior**: Adjustable aggressiveness and play style
+- **Automatic Turn Management**: AI players automatically take their turns
+- **Smart Targeting**: AI prioritizes weak enemies and valuable targets
+- **Terrain Awareness**: AI uses defensive terrain bonuses effectively
+
 ### ✅ Visual & Audio
 - **3D Models**: High-quality unit and terrain models
 - **Multiple Terrains**: Normal, Desert, Snow, and Wasteland environments
@@ -163,7 +171,7 @@ Assets/
 - [ ] **WebGL Optimization**: Enhanced web performance
 - [ ] **Mobile Support**: Touch controls and UI scaling
 - [ ] **Save System**: Game state persistence
-- [ ] **AI Opponents**: Computer-controlled enemies
+- [x] **AI Opponents**: Computer-controlled enemies ✅
 - [ ] **Animation System**: Unit movement and combat animations
 
 ## 🤝 Contributing
@@ -193,6 +201,10 @@ The core gameplay loop is complete and functional:
 - ✅ Combat system with damage calculations  
 - ✅ Turn-based mechanics
 - ✅ Terrain interactions
-- ✅ Basic AI opponent units
+- ✅ **Strategic AI system** with multiple difficulty levels
+- ✅ **Automated enemy turns** with tactical decision-making
 
-**Ready to play and test!** 🚀 
+**Ready to play and test!** 🚀
+
+### 🤖 AI Setup
+For detailed AI configuration instructions, see [AI_SETUP_GUIDE.md](AI_SETUP_GUIDE.md) 
