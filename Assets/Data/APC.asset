@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9f8fc13bf7d1b54c81318362e796860, type: 3}
+  m_Name: APC
+  m_EditorClassIdentifier: 
+  unitName: APC
+  unitType: 7
+  unitClass: 0
+  modelPrefab: {fileID: 8771091787928289351, guid: e38a6cc1c1521f1428027c90caf8654d, type: 3}
+  icon: {fileID: 0}
+  animatorController: {fileID: 0}
+  maxHP: 10
+  cost: 5000
+  movement: 2
+  vision: 2
+  fuel: 70
+  ammo: 0
+  attackTable: []
+  movementTable:
+  - terrain: 0
+    movementCost: 2
+  - terrain: 5
+    movementCost: 1
+  - terrain: 1
+    movementCost: 3
+  - terrain: 2
+    movementCost: 1
+  - terrain: 3
+    movementCost: 3
+  - terrain: 4
+    movementCost: 1
+  - terrain: 7
+    movementCost: 1
+  - terrain: 6
+    movementCost: 3
+  canMoveOnWater: 0
+  canMoveOnReef: 0
+  isAirUnit: 0
+  canCapture: 0
+  canLoad: 1
+  canSupply: 0
+  loadCapacity: 1
+  canLoadTypes: 
+  moveSound: {fileID: 0}
+  attackSound: {fileID: 0}
+  destroySound: {fileID: 0}

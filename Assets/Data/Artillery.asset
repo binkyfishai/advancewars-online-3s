@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9f8fc13bf7d1b54c81318362e796860, type: 3}
+  m_Name: Artillery
+  m_EditorClassIdentifier: 
+  unitName: Artillery
+  unitType: 8
+  unitClass: 0
+  modelPrefab: {fileID: 8771091787928289351, guid: 9438319cfc83db24d8e7b3dd6fe6f298, type: 3}
+  icon: {fileID: 0}
+  animatorController: {fileID: 0}
+  maxHP: 10
+  cost: 6000
+  movement: 1
+  vision: 2
+  fuel: 50
+  ammo: 9
+  attackTable:
+  - targetType: 0
+    damage: 90
+    minRange: 2
+    maxRange: 3
+    usesAmmo: 1
+  - targetType: 1
+    damage: 70
+    minRange: 2
+    maxRange: 3
+    usesAmmo: 1
+  - targetType: 2
+    damage: 80
+    minRange: 2
+    maxRange: 3
+    usesAmmo: 1
+  - targetType: 3
+    damage: 75
+    minRange: 2
+    maxRange: 3
+    usesAmmo: 1
+  - targetType: 4
+    damage: 45
+    minRange: 2
+    maxRange: 3
+    usesAmmo: 1
+  - targetType: 5
+    damage: 55
+    minRange: 2
+    maxRange: 3
+    usesAmmo: 1
+  - targetType: 6
+    damage: 65
+    minRange: 2
+    maxRange: 3
+    usesAmmo: 1
+  - targetType: 7
+    damage: 50
+    minRange: 2
+    maxRange: 3
+    usesAmmo: 1
+  movementTable:
+  - terrain: 0
+    movementCost: 1
+  - terrain: 5
+    movementCost: 1
+  - terrain: 1
+    movementCost: 2
+  - terrain: 2
+    movementCost: 1
+  - terrain: 3
+    movementCost: 2
+  - terrain: 4
+    movementCost: 1
+  - terrain: 7
+    movementCost: 1
+  - terrain: 6
+    movementCost: 2
+  canMoveOnWater: 0
+  canMoveOnReef: 0
+  isAirUnit: 0
+  canCapture: 0
+  canLoad: 0
+  canSupply: 0
+  loadCapacity: 0
+  canLoadTypes: 
+  moveSound: {fileID: 0}
+  attackSound: {fileID: 0}
+  destroySound: {fileID: 0}
