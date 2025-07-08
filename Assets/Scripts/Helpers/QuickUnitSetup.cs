@@ -13,7 +13,7 @@ public class QuickUnitSetup : MonoBehaviour
     {
         #if UNITY_EDITOR
         // Find or create UnitDataSetup GameObject
-        UnitDataSetup setupComponent = FindObjectOfType<UnitDataSetup>();
+        UnitDataSetup setupComponent = FindFirstObjectByType<UnitDataSetup>();
         
         if (setupComponent == null)
         {

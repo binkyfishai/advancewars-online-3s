@@ -245,7 +245,7 @@ public class AIController : MonoBehaviour
             score += (20f - distanceToEnemy) * aggressiveness;
             
             // Check if we can attack from this position
-            float attackRange = unit.unitData.maxRange;
+            float attackRange = unit.unitData.GetAttackRange().y;
             if (distanceToEnemy <= attackRange)
             {
                 score += 50f; // High bonus for attack positions

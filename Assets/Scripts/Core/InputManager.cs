@@ -33,9 +33,9 @@ public class InputManager : MonoBehaviour
     {
         // Get references
         mainCamera = Camera.main;
-        gameManager = FindObjectOfType<GameManager>();
-        gridManager = FindObjectOfType<GridManager>();
-        unitManager = FindObjectOfType<UnitManager>();
+        gameManager = FindFirstObjectByType<GameManager>();
+        gridManager = FindFirstObjectByType<GridManager>();
+        unitManager = FindFirstObjectByType<UnitManager>();
         
         // Setup input actions
         SetupInputActions();

@@ -9,10 +9,7 @@ public class AIManager : MonoBehaviour
     
     [Header("Custom Settings (if not using AISettings asset)")]
     [SerializeField] private int[] customAIPlayerIDs = { 1 };
-    [SerializeField] private float customActionDelay = 1.0f;
-    [SerializeField] private float customTurnEndDelay = 2.0f;
     [SerializeField] private float customAggressiveness = 0.7f;
-    [SerializeField] private float customExploreFactor = 0.3f;
     
     // AI Controller component
     private AIController aiController;
@@ -152,7 +149,7 @@ public class AIManager : MonoBehaviour
             }
             
             // Create the asset
-            AISettings newSettings = CreateInstance<AISettings>();
+            AISettings newSettings = ScriptableObject.CreateInstance<AISettings>();
             UnityEditor.AssetDatabase.CreateAsset(newSettings, path);
             UnityEditor.AssetDatabase.SaveAssets();
             

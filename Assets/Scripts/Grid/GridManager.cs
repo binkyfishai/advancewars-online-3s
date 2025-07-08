@@ -48,7 +48,7 @@ public class GridManager : MonoBehaviour
     {
         mainCamera = Camera.main;
         if (mainCamera == null)
-            mainCamera = FindObjectOfType<Camera>();
+            mainCamera = FindFirstObjectByType<Camera>();
     }
     
     public void InitializeGrid()

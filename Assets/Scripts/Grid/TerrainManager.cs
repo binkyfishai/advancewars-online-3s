@@ -23,7 +23,7 @@ public class TerrainManager : MonoBehaviour
     
     void Awake()
     {
-        gridManager = FindObjectOfType<GridManager>();
+        gridManager = FindFirstObjectByType<GridManager>();
         LoadTerrainModels();
     }
     

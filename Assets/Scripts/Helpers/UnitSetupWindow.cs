@@ -20,7 +20,7 @@ public class UnitSetupWindow : EditorWindow
         
         if (unitSetup == null)
         {
-            unitSetup = FindObjectOfType<UnitDataSetup>();
+            unitSetup = FindFirstObjectByType<UnitDataSetup>();
         }
         
         if (unitSetup == null)
